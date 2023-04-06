@@ -78,12 +78,13 @@
 // for (let item of products) {
 //     console.log(item);
 // }
-let arr = [
-    [3, 2, 1],
-    [4, 5, 2],
-];
-    for (let arrIn of arr) { //где arrIn это элементы массивов [3,2,1] и [4,5,2] 
-        for (let element of arrIn) { // element элементы дочерхних массивов 3,2,1 и 4,5,2
-            console.log(element);
-        }
-    }
+// let arr = [
+//     [3, 2, 1],
+//     [4, 5, 2],
+// ];
+//     for (let arrIn of arr) { //где arrIn это элементы массивов [3,2,1] и [4,5,2] 
+//         for (let element of arrIn) { // element элементы дочерхних массивов 3,2,1 и 4,5,2
+//             console.log(element);
+//         }
+//     }
+// ==============================================
