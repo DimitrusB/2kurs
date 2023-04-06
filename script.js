@@ -87,4 +87,44 @@
 //             console.log(element);
 //         }
 //     }
-// ==============================================
+// ==============================================поиск искомого элемента
+// let numbers = [1,2,3,4,5,6,7,8,9];
+// let num = Number(prompt('введите число для поиска массиве'));
+// search = numbers.includes(num);
+// if (search===true) {
+//     console.log(search);//если находит 5 возвращает значение true
+// } else {
+//     alert(` элемента ${num} нет`);//если находит 5 возвращает значение true
+// }
+// ======================================== spread - ...
+// let arrMax = [1,3,4,5,6,33,6,7];
+// let max=Math.max(...arrMax);
+// console.log(max);
+// console.log(arrMax);
+// ===================================== rest использование остатка в массиве
+// let arrSum = [1,3,4,5,6,33,6,7];
+// const sum =(a,b,c, ...rest) => {
+//     let result = a+b+c;
+
+//     console.log(result);
+//     console.log(rest);
+// }
+// console.log(sum(...arrSum));
+const newspaper = {
+	sports: {
+		title: 'ARod Hits Home Run',
+		writers: ['Miramon Nuevo', 'Rick Reilly', 'Woddy Paige'],
+	},
+	business: {
+		title: 'GE Stock Dips Again',
+		writers: ['Adam Smith', 'Albert Humphrey', 'Charles Handy'],
+	},
+	movies: {
+		title: 'Superman Is A Flop',
+		writers: ['Rogert Ebert', 'Andrew Sarris', 'Wesley Morris'],
+	},
+};
+
+console.log(newspaper.sports.title); // ARod Hits Home Run
+console.log(newspaper.business.writers[0]); // Adam Smith
+console.log(newspaper['movies']['title']); // Superman Is A Flop
