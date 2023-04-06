@@ -65,3 +65,25 @@
 
 // const totalSalary = salary.reduce((a, b) =>a+b);
 // console.log(totalSalary);
+// =========================многомерный массив
+// let arr = [
+//     [3, 2, 1],
+//     [4, 5, 2],
+//     [8, 6, 7],
+// ];
+// console.log(arr);
+// console.log(arr[0] [0]);
+// ------------------------------------------
+// let products = ['кресло' , 'стул' , 'стол'];
+// for (let item of products) {
+//     console.log(item);
+// }
+let arr = [
+    [3, 2, 1],
+    [4, 5, 2],
+];
+    for (let arrIn of arr) { //где arrIn это элементы массивов [3,2,1] и [4,5,2] 
+        for (let element of arrIn) { // element элементы дочерхних массивов 3,2,1 и 4,5,2
+            console.log(element);
+        }
+    }
