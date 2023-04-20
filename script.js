@@ -15,8 +15,8 @@
 // console.log(arr);
 // // ['Lorem', 'ipsum', 'dolor', 'sit', 'amet']
 
-// const str = 'Lorem ipsum! dolor sit amet ? consectetur adipisicing elit. Illum esse,';
-// const arr = str.split(/[?,.,,,!]/);
+// const str = 'Lorem ipsum! dolor sit amet ? consectetur , adipisicing elit. Illum esse,';
+// const arr = str.split(/[!,?,,,.]/);
 // console.log(arr);
 // // ['Lorem ipsum', ' dolor sit amet ', ' consectetur adipisicing elit', ' Illum esse', '']
 
@@ -26,18 +26,20 @@
 // const arr=[]; //создаем пустой массив для дальнейшей работы с ним
 // for (const el of str) { //перебираем с пмощью цикла for..of строку
 //    }
-//    arr.push(str[]); //заносим в массим элемент по индексу
+// //    arr.push(str[0]); //заносим в массим элемент по индексу
 //    arr.push(...str); // можно с помощью rest оператора передать все символы в массив 
 //    console.log(arr);
 
 
 // =============================#4
-// const numbers = [1, 2, 3, 4, 5];
+// const numbers = [5,6,3,9,10, 44,5,3,5];
 
-// const numberForDel = Math.round(numbers.length*0.5);
+//   numbers.splice((numbers.length*0.5), 1); 
 
-// let result = numbers.filter((number) => number !== numberForDel);
-// console.log(result);
+// console.log(numbers);
+
+
+
 
 // ================================#5
 // for (let i = 0; i < 10; i+2) { //произойдет зацикливание, и в конечном итоге закончится память. i+2 нет такого оператора инкремента (есть ++ увеличение на 1 и -- уменьшение на 1), тут если необходим шаг равный 2 , можно записать как i+=2
