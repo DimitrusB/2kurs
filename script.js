@@ -1,23 +1,12 @@
-// function removeChar(str){
-//     //You got this!
-//     str2 = str.slice(1, -1);
-//     console.log(str2);
-// }
-//    removeChar("Hello");
-// =========================================
+// =============================#4
+// const numbers = [1, 2, 3, 4, 5];
 
-// function pangrams(s) {
-//     const alphabet = "abcdefghijklmnopqrstuvwxyz";
-//     const regex = /\s/g;
-//     const lowercase = s.toLowerCase().replace(regex, "");
-    
-//      for(let i = 0; i < alphabet.length; i++){
-//       if(lowercase.indexOf(alphabet[i]) === -1){
-//         return  "not pangram";
-//       }
-//      }
-//         return "pangram";
-//    ;
-//   }
-//   pangrams("The quick brown fox jumps ov");
-  
+// const numberForDel = Math.round(numbers.length*0.5);
+
+// let result = numbers.filter((number) => number !== numberForDel);
+// console.log(result);
+
+// ================================#5
+for (let i = 0; i < 10; i+2) {
+    console.log(i);
+  }
